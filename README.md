@@ -1,7 +1,7 @@
 # Images To H264
-把一些连续的图像转换成H264裸流。
+把一些连续的图像转换成H264裸流，项目依赖libx264.
 
-`crate_x264` 基于库[quadrupleslap/x264](https://github.com/quadrupleslap/x264) 上进行了一些修改，添加了一些x264的调用参数和支持yuv420p格式的输入。
+`crate_x264` 基于库[quadrupleslap/x264](https://github.com/quadrupleslap/x264) 上进行了一些修改，添加了一些libx264的调用参数和支持yuv420p格式的输入。
 
 ## Usage
 ```
